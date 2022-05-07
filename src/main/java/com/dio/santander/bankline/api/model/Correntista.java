@@ -19,6 +19,10 @@ public class Correntista {
     @Embedded
     private Conta conta;
 
+    public void setConta(Conta conta) {
+        this.conta = conta;
+    }
+
     public Conta getConta() {
         return conta;
     }
